@@ -2,3 +2,18 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Miss Kreyn'
 theme = "PaperMod"
+
+#[params]
+[params.profileMode]
+    enabled = true
+    title = "Bruh"
+    subtitle = "This is subtitle"
+    imageUrl = "/images/crane.jpg"
+    imageTitle = "burd"
+
+    [[params.profileMode.buttons]]
+        name = "Archive"
+        url = "/archive"
+
+
+
